@@ -1,0 +1,213 @@
+
+a{
+	text-decoration: none;
+	color:#1260CC;
+}
+a:hover, a:focus{
+	text-decoration: none;
+}
+.text-primary{
+	color:#1260CC;	
+}
+
+.text-default{
+	color:#1260CC;	
+}
+
+.Quick_actions{ 
+	position: absolute;
+	bottom: -30px;
+	display: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.family:hover .Quick_actions{
+display: block;
+cursor: pointer;
+transition: 0.3s;
+}
+.btn-outline-default{
+	background: inherit;
+	border: 1px solid #1260CC;
+	color: #1260CC;
+	transition: 0.3s;
+}
+
+.btn-outline-default:focus {
+ border: none; 
+  transition: 0.3s;
+}
+
+.btn-outline-default:hover{
+	background: #3A9BDC;
+	color: white;
+	transition: 0.3s;
+}
+
+.btn-default{
+	background: #1260CC;
+	color: white;
+	transition: 0.3s;
+}
+.btn-default:focus {
+ border: none; 
+  transition: 0.3s;
+}
+
+.btn-default:hover{
+	background: #3A9BDC;
+	color: white;
+		transition: 0.3s;
+}
+
+.header{
+	background: #1260CC;
+	color: white;
+}
+
+ .alert{
+      position: fixed;
+      top: 0;
+      right: 0px;
+      width: fit-content;
+    }
+.card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s; 
+}
+
+.coverbannerbottom{
+  border-radius:0  0 1rem 1rem ;
+}
+
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+  }
+
+  .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+
+      #showRequestModel{
+            position: absolute;
+            bottom: 0px;
+            left: 20%; 
+            width: 50%;
+             transition: all 0.5s;
+              transition: 0.5s;
+
+          }
+
+        #loader {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          z-index: 1;
+          width: 120px;
+          height: 120px;
+          margin: -76px 0 0 -76px;  
+        }
+
+    #myDiv {
+      display: none; 
+    }
+    textarea:focus, input:focus{
+        outline: none;
+    }
+    *:focus {
+          outline: none;
+      }
+
+    .form-control:focus {
+      border-color: inherit;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+    .activeLink{
+          border-bottom: 2px solid #1260CC;
+          color: #1260CC;
+    }
+    .badge-default{
+      background:#1260CC;;
+      cursor: pointer;
+    }
+    .badge-danger{ 
+      cursor: pointer;
+    }
+    .nav-link{
+      color:#1260CC;
+    }
+
+  .btn-google{ 
+        color: #ffffff; 
+        padding: 10px;
+         width: 100%; 
+         text-align: center;
+          display: block; 
+          border-radius:3px;
+            background-color: #dd4b39;
+
+        }
+    .btn-google:hover{
+       background-color: #dd4b39;
+       color: #fff;
+
+    }
+
+ .btn-twitter{
+ 			background-color:#00acee;
+ 			color: #ffffff; 
+        padding: 10px;
+         width: 100%; 
+         text-align: center;
+          display: block; 
+          border-radius:3px;
+ }
+
+.btn-twitter:hover{
+       background-color: #00a6e6;
+       color: #fff;
+
+    }
+
+.btn-instagram{
+	background-color:#3f729b;
+ 			color: #ffffff; 
+        padding: 10px;
+         width: 100%; 
+         text-align: center;
+          display: block; 
+          border-radius:3px;
+	
+}
+
+.btn-instagram:hover{
+       background-color: #4378a3;
+       color: #fff;
+
+    }
+
+
+    .btn-facebook{  
+      background: #3B5499;
+       color: #ffffff;
+        padding: 10px;
+         width: 100%;
+          text-align: center;
+           display: block;
+            border-radius:3px;
+
+    }
+    .btn-facebook:hover {
+      background-color: #3B5998; 
+      color: #fff;
+    }

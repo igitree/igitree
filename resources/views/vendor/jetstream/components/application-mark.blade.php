@@ -1,0 +1,1 @@
+ <img src="{{ asset('assets/img/NewigitreeLogo.png') }}" alt="" class="Logo img-thumbnail border-0 " width="100px">
